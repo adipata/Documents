@@ -1,0 +1,37 @@
+Pentru a afisa numarul liniilor
+:set number
+:set nonumber
+
+Ctrl-g : informatii privitoare la pozitia cursorului
+
+Pentru syntax highlitning
+:syntax on
+Ar trebui sa existe si fisierul acesta ~/.vimrc unde se poate adauga linia: syntax on
+
+hjkl : stanga, dreapta, sus jos (6k muta cursorul 6 linii in sus)
+0$ : inceput, sfarsit linie
+bw : sare cate un cuvant
+gg G : la inceput si la sfarsitul fisierului
+
+x : sterge caracterul de sub cursorul
+u : undo
+Ctrl-r : redo
+
+d : incepe operatiunea de stergere si foloseste tastele de la mutare
+
+/ : cauta
+nN : cauta urmatoarea aparitie, sau anterioara
+
+%s/text/replacement text/gc : search and replace; c la sfarsit inseamna cu confirmare
+
+vV Ctrl-v : start selectie
+y : copy
+pP : paste
+
+3iYes : introduce un text de mai multe ori
+
+o : new line
+
+% : mergi la paranteza asociata, fain pentru blocuri de cod {ceva text}
+
+g : mergi la o anumita linie

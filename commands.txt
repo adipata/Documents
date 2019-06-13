@@ -1,1 +1,5 @@
+Search in files
 grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+r: recursive
+n: line number
+w: whole word
