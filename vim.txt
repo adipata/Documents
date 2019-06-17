@@ -1,3 +1,5 @@
+http://www.lagmonster.org/docs/vi.html
+
 Pentru a afisa numarul liniilor
 :set number
 :set nonumber
@@ -35,3 +37,5 @@ o : new line
 % : mergi la paranteza asociata, fain pentru blocuri de cod {ceva text}
 
 g : mergi la o anumita linie
+
+Shift+J : join lines
