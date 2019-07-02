@@ -75,4 +75,6 @@ SPLIT
 :mksession! ~/today.ses - salveaza sesiunea
 vim -S ~/today.ses - incarca o sesiune
 
+:map § :mksession! c:\adi\vim.session<CR>:wqa<CR>
 
+:qa - inchide vim cu totul
