@@ -19,6 +19,18 @@ x : sterge caracterul de sub cursorul
 u : undo
 Ctrl-r : redo
 
+i	insert before the current cursor position
+I	insert at the beginning of the current line. Far better than pressing ^ and then i.
+a	insert after the current cursor position
+A	insert/append at the end of the current line. Far better than pressing $ and then i.
+r	retype just the character under the cursor
+R	Enter overtype (replace) mode, where you destructively retype everything until you press ESC.
+s	(substitute) delete the character (letter, number, punctuation, space, etc) under the cursor, and enter insert mode
+c	the 'change' (retype) command. Follow with a movement command. cw is a favorite, as is cc
+C	Like 'c', but for the entire line.
+o	insert in a new line below the current line
+O	insert in a new line above the current line
+
 d : incepe operatiunea de stergere si foloseste tastele de la mutare
 
 / : cauta
