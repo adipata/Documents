@@ -39,3 +39,28 @@ o : new line
 g : mergi la o anumita linie
 
 Shift+J : join lines
+
+TABS
+:tabn :tabp - next/previous tab
+:tabe <file> - new tab
+	gt si gT pentru navigare intre tab-uri
+vim -p file1.txt fil2.txt - deschide mai multe fisiere in tab-uri separate
+
+SPLIT
+:sp si :vs - split orizontal si vertical
+:sp <filename> - split 
+	Ctrl+w si apoi tastele sageti pentru navigare intre split-uri
+	Ctrl+w w - switch intre ferestre
+	Ctrl+w c - inchide fereastra curenta
+	Ctrl+w o - inchide tot mai putin fereastra curenta
+
+:ls - listeaza fisierele deschise
+:b <no> - mergi la fisierul respectiv
+:bp :bn - prvious/next
+:buffers
+:bd - delete
+
+:mksession! ~/today.ses - salveaza sesiunea
+vim -S ~/today.ses - incarca o sesiune
+
+
