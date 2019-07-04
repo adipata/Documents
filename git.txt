@@ -25,6 +25,10 @@ git branch -dr <remote>/<branch> # Shorter
 git fetch <remote> --prune # Delete multiple obsolete tracking branches
 git fetch <remote> -p      # Shorter
 
+Pentru a nu mai urmari modificarile intr-un fisier:
+git update-index --assume-unchanged filename
+git update-index --no-assume-unchanged filename
+
 Aliases
 ====================
 alias.lg log --all --decorate --oneline --graph

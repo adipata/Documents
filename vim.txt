@@ -6,6 +6,8 @@ Pentru a afisa numarul liniilor
 
 Ctrl-g : informatii privitoare la pozitia cursorului
 
+:e - open file
+
 Pentru syntax highlitning
 :syntax on
 Ar trebui sa existe si fisierul acesta ~/.vimrc unde se poate adauga linia: syntax on
@@ -41,6 +43,7 @@ nN : cauta urmatoarea aparitie, sau anterioara
 vV Ctrl-v : start selectie
 y : copy
 pP : paste
+gvim: "*y si "*p pentru copy/paste din windows
 
 3iYes : introduce un text de mai multe ori
 
