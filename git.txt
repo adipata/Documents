@@ -2,6 +2,7 @@ Delete/close branch
 ==============================
 You can tag the tip of the branch by archiving it, and then delete the branch.
 git tag archive/<branchname> <branchname>
+git push origin <tagname>
 git branch -d <branchname>
 git checkout master
 
